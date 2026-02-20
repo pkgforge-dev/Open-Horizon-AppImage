@@ -31,3 +31,6 @@ echo "$VERSION" > ~/version
 
 cd ./open-horizon
 sed -i '21i #include <limits>' renderer/fhm_location.cpp
+mkdir -p build && cd build
+cmake .. -DCMAKE_BUILD_TYPE=Release
+make -j$(nproc)
