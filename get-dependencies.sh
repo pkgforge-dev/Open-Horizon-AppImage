@@ -33,6 +33,7 @@ mkdir -p ./AppDir/bin
 cd ./open-horizon
 sed -i '21i #include <limits>' renderer/fhm_location.cpp
 sed -i '/#include <stddef.h>/a #include <cstdint>' renderer/mesh_ndxr.h
+sed -i '1i #include <cstdint>' sound/file.h
 mkdir -p build && cd build
 cmake .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_POLICY_VERSION_MINIMUM=3.5
 make -j$(nproc)
