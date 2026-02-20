@@ -9,8 +9,7 @@ echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
     glfw           \
     lua51          \
-    openal         \
-    zlib-ng-compat
+    openal
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
