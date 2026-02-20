@@ -1,6 +1,6 @@
 <div align="center">
 
-# Open-Horizon-AppImage 🐧
+# WIP PLEASE DONT USE YETOpen-Horizon-AppImage 🐧
 
 [![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/Open-Horizon-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/Open-Horizon-AppImage/releases/latest)
 [![CI Build Status](https://github.com//pkgforge-dev/Open-Horizon-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/Open-Horizon-AppImage/releases/latest)
