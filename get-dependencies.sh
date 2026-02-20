@@ -26,7 +26,7 @@ echo "Making nightly build of Open Horizon..."
 echo "---------------------------------------------------------------"
 REPO="https://github.com/undefined-darkness/open-horizon"
 VERSION="$(git ls-remote "$REPO" HEAD | cut -c 1-9 | head -1)"
-git clone "$REPO" ./open-horizon
+git clone --recursive --depth 1 "$REPO" ./open-horizon
 echo "$VERSION" > ~/version
 
 mkdir -p ./AppDir/bin
