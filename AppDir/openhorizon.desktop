@@ -4,5 +4,5 @@ Name=Open Horizon
 Comment=An open source implementation of Ace Combat: Assault Horizon‘s render and physics
 Exec=open_horizon
 Icon=openhorizon
-StartupWMClass=
+StartupWMClass=open_horizon
 Categories=Game;Action;Flighting;Simulator
