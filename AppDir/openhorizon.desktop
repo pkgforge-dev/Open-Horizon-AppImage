@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
 Name=Open Horizon
-Comment=An open source implementation of Ace Combat: Assault Horizon‘s render and physics
+Comment="An open source implementation of Ace Combat: Assault Horizon‘s render and physics"
 Exec=open_horizon
 Icon=openhorizon
 StartupWMClass=open_horizon
